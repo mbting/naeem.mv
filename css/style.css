@@ -35,4 +35,70 @@ html,body,div,header,section,footer,nav,p,h1,a,img,li,ul {
 
 body {
 	font-family: 'YanoneKaffeesatz', Helvetica, Arial;
+	background: url('../img/bg.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#card {
+	background: #fff;
+	margin: 0 auto;
+	margin-top: 10%;
+	width: 500px;
+}
+
+#card header {
+	background: url('../img/banner.jpg') no-repeat center;
+	height: 150px;
+	padding-top: 100px;
+	margin-bottom: 50px;
+}
+
+#card header img {
+	display: block;
+	height: 100px;
+	margin: 0 auto;
+	width: 100px;
+	border: 5px solid #fff;
+	border-radius: 50px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+}
+
+#card section {
+	text-align: center;
+}
+
+#card h1 {
+	font-weight: bold;
+	font-size: 2em;
+}
+
+#card p {
+	color: #8b8b8b;
+}
+
+#card footer {
+	padding: 10px;
+	border-top: 1px solid #cecece;
+	margin-top: 40px;
+	text-align: center;
+}
+
+#card span {
+	background: #fff;
+	color: #8b8b8b;
+	display: block;
+	margin: 0 auto;
+	margin-top: -22px;
+	width: 55px;
+	margin-bottom: 10px;
+}
+
+#card footer li {
+	display: inline-block;
+	padding: 10px;
+	width: 24%;
 }

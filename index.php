@@ -10,13 +10,14 @@
 <body>
 	<div id="card">
 		<header>
-			<img src="img/pp1.jpg" alt="Ibrahim Naeem"/>
+			<img src="img/pp.jpg" alt="Ibrahim Naeem"/>
 		</header>
 		<section>
 			<h1>Ibrahim Naeem</h1>
 			<p>Hi! I'm a web developer and designer from the Maldives.</p>
 		</section>
 		<footer>
+			<span>Connect</span>
 			<nav>
 				<ul>
 					<li><a href="#">Facebook</a></li>
