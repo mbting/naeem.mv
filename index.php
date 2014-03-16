@@ -17,7 +17,7 @@
 			<p>Hi! I'm a web developer and designer from the Maldives.</p>
 		</section>
 		<footer>
-			<span>Connect</span>
+			<h3>Connect</h3>
 			<nav>
 				<ul>
 					<li><a href="#">Facebook</a></li>

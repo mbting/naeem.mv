@@ -1,6 +1,6 @@
 *{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
 
-html,body,div,header,section,footer,nav,p,h1,a,img,li,ul { 
+html,body,div,header,section,footer,nav,p,h1,h3,a,img,li,ul { 
 	padding: 0; 
 	margin: 0; 
 	font-style: none;
@@ -87,7 +87,7 @@ body {
 	text-align: center;
 }
 
-#card span {
+#card h3 {
 	background: #fff;
 	color: #8b8b8b;
 	display: block;
@@ -95,6 +95,7 @@ body {
 	margin-top: -22px;
 	width: 55px;
 	margin-bottom: 10px;
+	font-weight: lighter;
 }
 
 #card footer li {
