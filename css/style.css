@@ -1,0 +1,13 @@
+*{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
+
+html,body,div,header,section,footer,nav,p,h1,a,img,li,ul { 
+	padding: 0; 
+	margin: 0; 
+	font-style: none;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 1.375em;
+	text-decoration: none;
+	color: #000;
+	list-style: none;
+}
