@@ -5,9 +5,34 @@ html,body,div,header,section,footer,nav,p,h1,a,img,li,ul {
 	margin: 0; 
 	font-style: none;
 	font-weight: normal;
-	font-size: 16px;
-	line-height: 1.375em;
+	font-size: 17px;
+	line-height: 1.3em;
 	text-decoration: none;
 	color: #000;
 	list-style: none;
+}
+
+@font-face {
+	font-family: 'YanoneKaffeesatz';
+	src: url('fonts/YanoneKaffeesatz-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'YanoneKaffeesatz';
+	src: url('fonts/YanoneKaffeesatz-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'YanoneKaffeesatz';
+	src: url('fonts/YanoneKaffeesatz-Thin.ttf') format('truetype');
+	font-weight: lighter;
+	font-style: normal;
+}
+
+body {
+	font-family: 'YanoneKaffeesatz', Helvetica, Arial;
 }
