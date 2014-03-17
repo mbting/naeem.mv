@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Ibrahim Naeem</title>
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
 </head>
 <body>
 	<div id="card">
@@ -20,10 +21,10 @@
 			<h3>Connect</h3>
 			<nav>
 				<ul>
-					<li><a href="#">Facebook</a></li>
-					<li><a href="#">Google+</a></li>
-					<li><a href="#">Twitter</a></li>
-					<li><a href="#">Instagram</a></li>
+					<li class="facebook"><a href="http://www.facebook.com/mbting"><i class="fa fa-facebook"></i> Facebook</a></li>
+					<li class="google"><a href="http://www.google.com/+IbrahimNaeem"><i class="fa fa-google-plus"></i> Google+</a></li>
+					<li class="twitter"><a href="http://twitter.com/mbting"><i class="fa fa-twitter"></i> Twitter</a></li>
+					<li class="instagram"><a href="http://instagram.com/mbting"><i class="fa fa-instagram"></i> Instagram</a></li>
 				</ul>
 			</nav>
 		</footer>

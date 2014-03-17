@@ -14,21 +14,21 @@ html,body,div,header,section,footer,nav,p,h1,h3,a,img,li,ul {
 
 @font-face {
 	font-family: 'YanoneKaffeesatz';
-	src: url('fonts/YanoneKaffeesatz-Regular.ttf') format('truetype');
+	src: url('../fonts/YanoneKaffeesatz-Regular.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'YanoneKaffeesatz';
-	src: url('fonts/YanoneKaffeesatz-Bold.ttf') format('truetype');
+	src: url('../fonts/YanoneKaffeesatz-Bold.ttf') format('truetype');
 	font-weight: bold;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'YanoneKaffeesatz';
-	src: url('fonts/YanoneKaffeesatz-Thin.ttf') format('truetype');
+	src: url('../fonts/YanoneKaffeesatz-Thin.ttf') format('truetype');
 	font-weight: lighter;
 	font-style: normal;
 }
@@ -103,3 +103,12 @@ body {
 	padding: 10px;
 	width: 24%;
 }
+
+#card footer i {
+	padding: 10px;
+}
+
+#card .facebook i, #card .facebook a { color: #3B5998; }
+#card .google i, #card .google a { color: #dd4b39; }
+#card .twitter i, #card .twitter a { color: #00aced; }
+#card .instagram i, #card .instagram a { color: #3f729b; }
