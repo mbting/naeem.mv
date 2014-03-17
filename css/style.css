@@ -110,13 +110,15 @@ body {
 #card footer li {
 	display: inline-block;
 	padding: 10px;
-	width: 24%;
+	width: 15%;
+	margin: 5px;
 }
 
 #card footer i {
 	padding: 10px;
 }
 
+#card .blog i, #card .blog a { color: #6b9e3e; }
 #card .facebook i, #card .facebook a { color: #3B5998; }
 #card .google i, #card .google a { color: #dd4b39; }
 #card .twitter i, #card .twitter a { color: #00aced; }
@@ -140,7 +142,10 @@ body {
 		padding-top: 150px;
 		margin-bottom: 50px;
 	}
+	#card footer ul {
+		padding: 5px;
+	}
 	#card footer li {
-	width: 20%;
-}
+		width: 15;
+	}
 }
